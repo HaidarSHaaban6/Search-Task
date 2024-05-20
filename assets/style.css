@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 90px;
+}
+
+input {
+    width: 80%;
+    height: 45px;
+    display: block;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.btn {
+    width: 160px;
+    height: 45px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.sendData {
+    background-color: #2d2db5;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* margin-top: 0; */
+}
+
+.searchData {
+    background-color: #2db538;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* margin-top: 0; */
+}
+
+.deleteData {
+    background-color: #ff0000;
+    color: #ffffff;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+.deleteData:hover {
+    background-color: #8b2121;
+}
+
+.sendData:hover {
+    background-color: #141475;
+}
+
+.updateData {
+    background-color: #ffe100;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+.updateData:hover {
+    background-color: #ffa500;
+}
+
+.searchData:hover {
+    background-color: #0f6d0f;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table thead th {
+    text-align: center;
+    border: 2px solid #000000;
+    height: 35px;
+}
+
+.DeleteAllButtonContainer,
+.sendButtonContainer,
+.SaveButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteAllButton {
+    background-color: #ff0000;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.deleteAllButton:hover {
+    background-color: #8b2121;
+}
+
+.saveButton {
+    background-color: #033f03;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.saveButton:hover {
+    background-color: #0f6d0f;
+}

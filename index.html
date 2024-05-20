@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <input type="text" class="firstName" placeholder="Enter Your Name">
+        <input type="text" class="lastName" placeholder="Enter Your Last Name">
+        <input type="text" class="handle" placeholder="Handle">
+        <input type="text" onkeyup="seachData(this.value)" class="search" placeholder="Search">
+
+        <div class="sendButtonContainer">
+            <button class="btn sendData">Send Data</button>
+            <button class="btn searchData">Search</button>
+        </div>
+        <div class="DeleteAllButtonContainer"></div>
+        <div class="SaveButtonContainer"></div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Handle</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+            <tbody class="tableBody"></tbody>
+        </table>
+    </div>
+
+
+
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
